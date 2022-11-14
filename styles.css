@@ -1,0 +1,228 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.option {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navigation-wrapper * {
+    background: black;
+}
+
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 120px;
+    background: black;
+    width: 100%;
+
+}
+
+.logo {
+    flex: 1 1 15%;
+    margin: 0;
+    height: 100px;
+    display: flex;
+}
+
+.logo img {
+    width: 80%;
+    margin: auto;
+
+}
+
+.explore-menu {
+    margin-left: 2%;
+    flex: 1 1 35%;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.explore {
+    font-size: 1em;
+    grid-row: 1;
+    display: inline-block;
+    width: 100%;
+}
+
+.explore h3 {
+    color: #e4dc87;
+
+}
+
+.menu {
+    font-size: 1.8em;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu>.drop {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: normal;
+    color: #a69fa1;
+}
+
+.menu>.drop i {
+    font-size: 0.8em;
+    margin-left: 20px;
+    color: #a69fa1;
+}
+
+.right-options {
+    flex: 1 1 34%;
+    margin-left: 9%;
+
+}
+
+.right-options * {
+    background-color: #353841;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 3% 5% 3% 5%;
+    font-size: 1.8em;
+    border-radius: 8px;
+}
+
+.btn i {
+    color: #5bc293;
+}
+
+.looking-for-icon {
+    width: 13%;
+    margin-right: 15px;
+    text-align: center;
+    background-color: black;
+
+}
+
+.looking-for-icon i {
+    width: 100%;
+    vertical-align: middle;
+    font-size: 3em;
+    background-color: black;
+    color: #5d5c64;
+    margin: 2%;
+}
+
+.background {
+    background: linear-gradient(to right, #32353e, #0b0b0c);
+    padding: 1% 0;
+    display: flex;
+    width: 100%;
+}
+
+.left-column {
+    padding: 3% 5%;
+    font-size: 1.9em;
+    display: inline-block;
+    width: 58%;
+}
+
+.handwave {
+    width: 1em;
+
+}
+
+.left-column h1 {
+    font-family: sans-serif;
+    color: #929297;
+    font-family: Calibri;
+    font-weight: normal;
+}
+
+.left-column b {
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.left-column h2 {
+    color: #929297;
+    font-size: 1.6em;
+    font-family: Calibri;
+    font-weight: normal;
+}
+
+.left-column>.btn {
+    padding: 3%;
+    margin-right: 1%;
+}
+
+.green {
+    background-color: #54c77a;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.right-column {
+    padding: 3% 0;
+    display: inline-block;
+    width: 42%;
+}
+
+.heading {
+    margin: 2%;
+}
+
+.heading h3 {
+    font-size: 1.8em;
+}
+
+.heading h3 b {
+    color: #64b5df;
+}
+
+
+.right-column img {
+    display: block;
+    width: 100%;
+}
+
+.first-footer {
+    width: 100%;
+    display: flex;
+    background-color: #353841;
+}
+
+.first-footer>.option {
+    width: 24.8%;
+    margin: 0;
+    padding: 1% 0;
+    text-align: center;
+    border: #a69fa1 solid 1.5px;
+}
+
+.first-footer>.option * {
+    display: inline-block;
+}
+
+.first-footer>.option h3 {
+    font-size: 1.6em;
+}
+
+.first-footer>.option h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.second-footer {
+    width: 100%;
+    height: 10em;
+    background-color: #191a1e;
+}
